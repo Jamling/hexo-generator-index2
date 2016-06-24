@@ -1,0 +1,33 @@
+{
+  "name": "hexo-generator-index2",
+  "version": "0.0.1",
+  "description": "Filtered index generator for Hexo.",
+  "main": "index",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamling/hexo-generator-index2.git"
+  },
+  "homepage": "https://github.com/Jamling/hexo-generator-index2",
+  "keywords": [
+    "hexo",
+    "generator",
+    "index",
+    "home"
+  ],
+  "author": {
+    "name": "Jamling",
+    "email": "li.jamling@gmail.com",
+    "url": "http://ieclipse.cn"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hexo-pagination": "0.0.2",
+    "object-assign": "^4.0.1"
+  }
+}
