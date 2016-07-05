@@ -2,7 +2,7 @@
 
 Filtered index generator for [Hexo]. Add filter feature base on the official index generator.
 
-[简体中方](https://github.com/Jamling/hexo-generator-index2/blob/master/README_zh.md)
+[简体中文](https://github.com/Jamling/hexo-generator-index2/blob/master/README_zh.md)
 
 ## Installation
 
