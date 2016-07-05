@@ -2,32 +2,16 @@
 
 Filtered index generator for [Hexo]. Add filter feature base on the official index generator.
 
+[简体中方](https://github.com/Jamling/hexo-generator-index2/blob/master/README_zh.md)
+
 ## Installation
 
 ``` bash
 $ npm install hexo-generator-index2 --save
+$ npm uninstall hexo-generator-index --save
 ```
 
-And replace the official hexo-generator-index to hexo-generator-index2 in <var>package.json</var>
-
-```diff
-"dependencies": {
-    "hexo": "^3.2.0",
-    "hexo-deployer-git": "^0.1.0",
-    "hexo-generator-archive": "^0.1.4",
-    "hexo-generator-category": "^0.1.3",
--     "hexo-generator-index": "^0.2.0",
-+     "hexo-generator-index2": "^0.0.1",
-    "hexo-generator-tag": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.10",
-    "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0",
-    "lodash": "^4.6.1",
-    "hexo-generator-github": "^0.0.1",
-    "hexo-generator-i18n": "^0.0.1"
-  }
-
-```
+Don't worry about the uninstallation, this plugin works same as offical index generator when no include/exclude options.
 
 ## Options
 
