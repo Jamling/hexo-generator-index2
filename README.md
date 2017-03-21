@@ -1,3 +1,9 @@
+[![Build Status](https://travis-ci.org/Jamling/hexo-generator-index2.svg?branch=master)](https://travis-ci.org/Jamling/hexo-generator-index2)
+[![node](https://img.shields.io/node/v/hexo-generator-index2.svg)](https://www.npmjs.com/package/hexo-generator-index2)
+[![npm downloads](https://img.shields.io/npm/dt/hexo-generator-index2.svg)](https://www.npmjs.com/package/hexo-generator-index2)
+[![npm version](https://img.shields.io/npm/v/hexo-generator-index2.svg)](https://www.npmjs.com/package/hexo-generator-index2)
+[![GitHub release](https://img.shields.io/github/release/jamling/hexo-generator-index2.svg)](https://github.com/Jamling/hexo-generator-index2/releases/latest)
+
 ## Introduction
 
 Filtered index generator for [Hexo]. Add filter feature base on the official index generator.
