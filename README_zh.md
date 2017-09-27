@@ -7,6 +7,7 @@
 ## 简介
 
 带过滤功能的[Hexo]首页生成器插件。在官方的首页生成器基础上添加了过滤指定分类/标签的功能。比如，在首页只显示指定分类下面的文章列表。
+除此之外，它还在指定的目录下生成指定类型的文章，比如在web目录下生成Web相关的文章。
 
 [English](https://github.com/Jamling/hexo-generator-index2/blob/master/README.md)
 
@@ -20,7 +21,11 @@ $ npm uninstall hexo-generator-index --save
 ## 选项
 
 ``` yaml
-index_generator:
+# index2 generator是否包含官方的index generator，默认true（包含）
+index2_include_index: true # defult is true
+
+# 配置index2 generator，可以是数组或对象
+index2_generator:
   per_page: 10
   order_by: -date
   include:
