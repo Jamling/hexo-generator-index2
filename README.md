@@ -28,7 +28,7 @@ index2_include_index: true # defult is true
 # the custom index2 generator, can be array or object
 index2_generator:
   - layout: 'archive' # use existing archive layout
-    path: 'web' # output to web folder: http://127.0.0.1:4000/
+    path: 'web' # output to web folder: http://127.0.0.1:4000/web/
     per_page: 10
     order_by: -date
     include:
@@ -85,7 +85,7 @@ Generate special articles to specific folder. Such as list articles witch catego
 ``` yaml
 index2_generator:
   - layout: 'index' # use existing archive layout
-    path: 'web' # output to web folder: http://127.0.0.1:4000/
+    path: 'web' # output to web folder: http://127.0.0.1:4000/web/
     per_page: 10
     order_by: -date
     include:
