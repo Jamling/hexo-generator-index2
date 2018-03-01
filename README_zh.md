@@ -18,10 +18,12 @@ $ npm install hexo-generator-index2 --save
 $ npm uninstall hexo-generator-index --save
 ```
 
+[hexo-generator-index2]可以完全替代官方的[hexo-generator-index]，所以安装之后，先卸载官方的插件，不然会引起一些冲突。
+
 ## 选项
 
 ``` yaml
-# index2 generator是否包含官方的index generator，默认true（包含）
+# index2 generator是否包含官方的hexo-generator-index，默认true（包含）
 index2_include_index: true # defult is true
 
 # 配置index2 generator，可以是数组或对象
@@ -37,6 +39,9 @@ index2_generator:
 
 - **per_page**: Posts displayed per page. (0 = disable pagination)
 - **order_by**: Posts order. (Order by date descending by default)
+- **layout**: Set the layout, default is `index`
+- **path**: Output path, if path is `''`, means output to the root directory (http://127.0.0.1:4000/ )
+- **index**: Home index or not, if `true` and the `path` is `''`, same to offical [hexo-generator-index]
 - **include**: Posts filter include option
 - **exclude**: Posts filter exclude option
 
@@ -53,4 +58,6 @@ Include/exclude 选项格式为`属性 值`（注意，属性与值中间有个�
 
 MIT
 
+[hexo-generator-index]: https://github.com/hexojs/hexo-generator-index
+[hexo-generator-index2]: https://github.com/Jamling/hexo-generator-index2
 [Hexo]: http://hexo.io/
