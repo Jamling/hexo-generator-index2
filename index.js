@@ -29,8 +29,8 @@ if(hexo.config.index2_generator) {
   }
 }
 
-hexo.log.info("index2 generators:");
-hexo.log.info(index2_generators);
+hexo.log.debug("index2 generators:");
+hexo.log.debug(index2_generators);
 hexo.config.index2_generators = index2_generators;
 
 hexo.extend.generator.register('index2', require('./lib/generator2'));
